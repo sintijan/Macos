@@ -3,22 +3,29 @@
 <html>
 
 <head>
-<style>
-    body {background-color: blanchedalmond;}
-    h1 {color:red;}
-    p {color: black;}
-   
-</style>
-<h1 style="color: blue; text-align: center;">Es mācos</h1>
+    <style>
+        body {
+            background-color: blanchedalmond;
+        }
+
+        h1 {
+            color: red;
+        }
+
+        p {
+            color: black;
+        }
+    </style>
+    <h1 style="color: blue; text-align: center;">Es mācos</h1>
 
 
-<div>
-    <a href="#">Lapa</a>
-    <a href="#">Lapa</a>
-    <a href="#">Lapa</a>
-</div>
+    <div>
+        <a href="#">Lapa</a>
+        <a href="#">Lapa</a>
+        <a href="#">Lapa</a>
+    </div>
 
-<!--šeit ievadu komentāru-->
+    <!--šeit ievadu komentāru-->
 </head>
 
 <body>
@@ -56,32 +63,47 @@
     Hello hello hello hello
     Hello hello hello hello
 </pre>
-<p>Vārds:<input type="text" name="talkingsponge">
+    <form>
+        <label for="fname">Vārds:</label>
+        <input type="text" id="fname" name="fname">
+    </form>
     <br>
-Uzvādrs:<input type="text">
-<br>
-Parole:<input type="password">
-<br>
-<form>
-Dzimums: Sieviete<input type="checkbox"> Vīrietis<input type="checkbox">
-<div>
-</form>
-<br>
-<form>
-Dzimums: Sieviete<input type="radio"> Vīrietis<input type="radio">
-</form>
-<br>
-</div>
-<input type="submit"></p>
-<div>
-<br>
-<p>Izvēlēties suņa šķirni:<select name="suns">
-    <option>Terjers</option>
-    <option>Taksis</option>
-    <option>Vācu aitu suns</option>
-    <option>bezškirnes</option>
-</select></p>
-</div>
+
+    <form>
+        <label for="lname">Uzvārds:</label>
+        <input type="text" id="lname" name="lname">
+    </form>
+    <br>
+
+    Parole:<input type="password">
+    <br>
+
+    <form>
+        Dzimums:
+        <input type="checkbox" id="gender1" name="gender1" value="Sieviete">
+        <label for="gender1">Sieviete</label>
+        <input type="checkbox" id="gender2" name="gender2" value="Vīrietis">
+        <label for="gender2">Vīrietis</label>
+    </form>
+
+    <br>
+    <form>
+        Dzimums: Sieviete<input type="radio"> Vīrietis<input type="radio">
+    </form>
+
+    <br>
+
+    <input type="submit"></p>
+
+    <div>
+        <br>
+        Izvēlēties suņa šķirni:<select name="suns">
+            <option>Terjers</option>
+            <option>Taksis</option>
+            <option>Vācu aitu suns</option>
+            <option>bezškirnes</option>
+        </select>
+    </div>
 
 </body>
 
