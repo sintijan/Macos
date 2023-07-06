@@ -1,0 +1,100 @@
+ul {
+    position: fixed;
+    top: 0;
+    list-style-type: none;
+    background-color: white;
+    color: black;
+    overflow: hidden;
+    display: inline;
+    padding: 10px 5px;
+    margin-top: 0px;
+    width: 99%;
+}
+
+li {
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    font-size: 16px;
+    display: block;
+}
+
+li a {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #dbdada;
+}
+
+li a:active {
+    background-color: rgb(100, 96, 96);
+}
+
+.labi {
+    float: right;
+}
+
+.kreisi {
+    float: left;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(51, 50, 50);
+    text-align: justify;
+}
+
+h1 {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    letter-spacing: 5px;
+    text-align: left;
+}
+
+.grid-container {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto;
+    background-color: white;
+    padding-top: 100px;
+    padding-left: 750px;
+    padding-right: 750px;
+    padding-bottom: 50px;
+    row-gap: 150px;
+}
+
+#pavasaris {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centrs {
+    padding-left: 750px;
+    padding-right: 750px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.kājene {
+    text-align: center;
+}
+
+hr {
+    background-color: rgb(37, 9, 88);
+    color: rgb(37, 9, 88);
+    border-width: 1px;
+    width: 40%;
+}
+
+footer {
+    background-color: #e6e3e3;
+    margin-bottom: 0px;
+    padding: 5px 5px;
+    margin-top: 100px;
+}
